@@ -1,0 +1,10 @@
+<p>search-bar works!</p>
+<div class="form-area">
+    <h3>add message</h3>
+    <form #productsForm="ngForm" (ngSubmit)="onProductCreate(productsForm.value)">
+        <input type="text" name="body" ngModel>
+        <input type="text" name="user" ngModel>
+        <input type="text" name="room" ngModel>
+        <button>Add Message</button>
+    </form>
+</div>
